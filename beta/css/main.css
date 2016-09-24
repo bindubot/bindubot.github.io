@@ -1292,7 +1292,7 @@ if it's not present, don't show loader */
 /*Floating */
 .btnt {
   position: fixed;
-  bottom: 5px;
+  bottom: 30px;
   right: 27px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -1478,17 +1478,7 @@ if it's not present, don't show loader */
 
 
 /*Partners*/
-.ptheading {
-	
-	text-align:center;
-	vertical-align:middle;
-}
-.ptheading h1 {
-	color:White;
-	font-size:32px;
-	
-	 
-}
+
 
 /*mouse animation*/
 .mouse {
@@ -1994,7 +1984,7 @@ if it's not present, don't show loader */
   position: relative;  
   width: 100%;
   display: flex;
-  background-image: url("../images/about-bg.png");
+  background-image: url("../images/ss.jpg");
   background-repeat:no-repeat;
 }
 /*************************
@@ -2338,4 +2328,12 @@ if it's not present, don't show loader */
   left: 0;
   width: 100%;
   height: 100%;
+}
+#partners h2 {
+  padding-top: 32px;
+  margin-bottom: 23px;
+  font-size: 56px;
+  opacity: .6;
+  text-align:center;
+  
 }
